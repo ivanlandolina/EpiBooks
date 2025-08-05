@@ -41,38 +41,17 @@ nav{
   font-family: 'Oswald', sans-serif;
 }
 
-.bgimg {
-  background-image: url('/w3images/forestbridge.jpg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
+.btnBook{
+  background: none;
+  border: 1px solid lightgray ;
+  border-radius: 20px;
 }
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
+.btnBook:hover {
+  background-color: none !important;
+  color: #F29F1A !important;
 }
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
-
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-hr {
-  margin: auto;
-  width: 40%;
+.btn-primary{
+  background-color: transparent !important;
 }
